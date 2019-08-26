@@ -1,0 +1,7 @@
+version: "3"
+services:
+  beach-resort:
+    container_name: beach-resort
+    build: .
+    ports:
+      - "8015:80"
