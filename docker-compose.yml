@@ -2,6 +2,7 @@ version: "3"
 services:
   beach-resort:
     container_name: beach-resort
+    restart: unless-stopped
     build: .
     ports:
       - "8015:80"
